@@ -24,7 +24,7 @@ export default function About() {
               <a className={styles.card}>
                   <h2>About Me &rarr;</h2>
                   <p>My name is Sanjoth.</p>
-                  <p>I am currently working at IBM. This is a veryyyyyyyyyyyyy long line</p>
+                  <p>I am currently working at IBM, part of web-platform.</p>
                   <p>Currently experimenting with Neumorphism.</p>
               </a>
           <Switch />
