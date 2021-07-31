@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -39,7 +41,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
-  font-family: 'Ballet', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Nothing You Could Do', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .title a:hover,
@@ -52,7 +54,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  font-family: 'Ballet', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Nothing You Could Do', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .title,
@@ -70,7 +72,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: 'Ballet', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: 'Nothing You Could Do', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
@@ -106,13 +108,17 @@
 .titleCard:active {
   /*color: rgb(2,0,36);*/
   /*color: linear-gradient(227deg, rgba(2,0,36,1) 0%, rgba(14,14,233,1) 35%, rgba(0,212,255,1) 100%);*/
-  color: blue;
+  /*color: blue;*/
   /*border-color: blue;*/
+  background: linear-gradient(326deg, rgba(1,0,255,1) 11%, rgba(117,0,255,1) 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   box-shadow: unset;
   /*box-shadow:*/
   /*        8px 8px 10px 0 rgba(0, 0, 0, 0.25),*/
   /*        -8px -8px 12px 0 rgba(255, 255, 255, 0.8);*/
 }
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -143,6 +149,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  font-family: 'Nothing You Could Do', Menlo;
   /*background: linear-gradient(227deg, rgba(2,0,36,1) 0%, rgba(14,14,233,1) 35%, rgba(0,212,255,1) 100%);*/
   /*background: -webkit-linear-gradient(#eee, #333);*/
   /*background: rgb(117,204,119);*/
@@ -164,6 +171,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  font-family: 'Nothing You Could Do', Menlo;
 }
 
 .card:hover p,

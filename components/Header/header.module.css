@@ -1,0 +1,33 @@
+.navigation {
+    top: 10px;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #505050;*/
+    background-color: aliceblue;
+    /*margin: -30px auto 0;*/
+    /*border-radius: 120px / 10px;*/
+    box-shadow: 0 12px 12px rgba(0, 0, 0, .6);
+    /*box-shadow: #505050;*/
+    /*box-shadow:*/
+    /*        8px 8px 10px 0 rgba(0, 0, 0, 0.25),*/
+    /*        -8px -8px 12px 0 rgba(255, 255, 255, 0.8);*/
+}
+.navigation a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 20px;
+    font-family: 'Nothing You Could Do', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+.navigation a:hover,
+.navigation a:focus {
+/*.navigation a:active {*/
+    background: linear-gradient(326deg, rgba(1,0,255,1) 51%, rgba(117,0,255,1) 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
