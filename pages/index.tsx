@@ -15,14 +15,14 @@ export default function About() {
         {/*<h1 className={styles.title}>*/}
         {/*  Welcome to <a href="https://nextjs.org">Next.js!</a>*/}
         {/*</h1>*/}
-        <h1 className={styles.title}>
+        <h1 className={`${styles.title} ${styles.titleCard}`}>
           Hi!
         </h1>
 
               <a className={styles.card}>
                   <h2>About Me &rarr;</h2>
-                  <p>I am Sanjoth.</p>
-                  <p>I am working at IBM. This is a veryyyyyyyyyyyyy long line</p>
+                  <p>My name is Sanjoth.</p>
+                  <p>I am currently working at IBM. This is a veryyyyyyyyyyyyy long line</p>
                   <p>Currently experimenting with Neumorphism.</p>
               </a>
 
