@@ -1,0 +1,30 @@
+/*.blogsContainer {*/
+/*    background-color: #0070f3;*/
+/*    width: 100px;*/
+/*}*/
+.blogsContainer {
+  /*max-width: var(--main-content);*/
+  width: var(--main-content);
+  margin: 10px auto;
+  padding: 0 var(--gap);
+  background-color: aliceblue;
+  font-family: "Nothing You Could Do", Menlo, Monaco, Lucida Console,
+    Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
+  box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+}
+/*.blogsContainer .title {*/
+/*    top: 100px*/
+/*}*/
+.title {
+  font-size: 30px;
+  margin: 10px auto;
+  padding: 10px var(--gap);
+  text-decoration: underline;
+  box-shadow: unset;
+}
+.blogsContainer:hover {
+  /*background-color: white;*/
+}

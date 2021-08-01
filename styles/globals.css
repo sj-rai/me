@@ -1,3 +1,7 @@
+:root {
+  --main-content: 50rem;
+  --gap: 1rem;
+}
 html,
 body {
   padding: 0;
