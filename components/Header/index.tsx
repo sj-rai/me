@@ -10,19 +10,19 @@ export default function Header() {
           {/*<div id="blog"><a href="#">Blog </a></div>*/}
           {/*<div className={"blogs"}><a href="/blogs">Blogs </a></div>*/}
           {/*<div className={"notes"}><a href="/notes">Notes </a></div>*/}
-          <a className={"notes"} href="#">
+          <a className={"notes"} href="/notes">
             Notes 📝
           </a>
-          <a className={"blogs"} href="#">
+          <a className={"blogs"} href="/blogs">
             Blogs 🖥
           </a>
-          <a className={"playlist"} href="#">
+          <a className={"playlist"} href="/playlist">
             Playlist 🎵
           </a>
-          <a className={"rss"} href="#">
+          <a className={"rss"} href="/rss-feed">
             RSS feed{" "}
           </a>
-          <a className={"bookmarks"} href="#">
+          <a className={"bookmarks"} href="/bookmarks">
             Bookmarks{" "}
           </a>
         </div>
