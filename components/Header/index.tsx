@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from 'next/link'
 import React from "react";
 import styles from "./header.module.css";
 
@@ -10,21 +11,24 @@ export default function Header() {
           {/*<div id="blog"><a href="#">Blog </a></div>*/}
           {/*<div className={"blogs"}><a href="/blogs">Blogs </a></div>*/}
           {/*<div className={"notes"}><a href="/notes">Notes </a></div>*/}
-          <a className={"notes"} href="/notes">
+          <Link href="/">
+            Home 🏠
+          </Link>
+          <Link href="/notes">
             Notes 📝
-          </a>
-          <a className={"blogs"} href="/blogs">
+          </Link>
+          <Link href="/blogs">
             Blogs 🖥
-          </a>
-          <a className={"playlist"} href="/playlist">
+          </Link>
+          <Link href="/playlist">
             Playlist 🎵
-          </a>
-          <a className={"rss"} href="/rss-feed">
-            RSS feed{" "}
-          </a>
-          <a className={"bookmarks"} href="/bookmarks">
-            Bookmarks{" "}
-          </a>
+          </Link>
+          <Link href="/rss-feed">
+            RSS feed
+          </Link>
+          <Link href="/bookmarks">
+            Bookmarks
+          </Link>
         </div>
       </>
     </Head>
