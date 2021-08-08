@@ -17,7 +17,7 @@ export default function About() {
           {/*<h1 className={styles.title}>*/}
           {/*  Welcome to <a href="https://nextjs.org">Next.js!</a>*/}
           {/*</h1>*/}
-          <h1 className={`${styles.title} ${styles.titleCard}`}>Hi! 🙋🏻</h1>
+          <h1 className={`${styles.title} ${styles.titleCard}`}>Hi! 👋</h1>
 
           <a className={styles.card}>
             <h2>About Me &rarr;</h2>

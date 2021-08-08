@@ -17,7 +17,10 @@ export default function Notes() {
           <h3>next/babel issue</h3>
         </div>
         <div className={blogStyles.blogsContainer}>
-          <h3>Having babel config causes the issue with `no filename specified`, no config works. Also, next11 does not work whatsoever</h3>
+          <h3>
+            Having babel config causes the issue with `no filename specified`,
+            no config works. Also, next11 does not work whatsoever
+          </h3>
         </div>
       </div>
     </Layout>
