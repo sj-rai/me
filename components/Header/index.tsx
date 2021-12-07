@@ -12,11 +12,12 @@ export default function Header() {
           {/*<div className={"blogs"}><a href="/blogs">Blogs </a></div>*/}
           {/*<div className={"notes"}><a href="/notes">Notes </a></div>*/}
           <Link href="/">Home 🏠</Link>
-          <Link href="/notes">Notes 📝</Link>
+          {/*<Link href="/notes">Notes 📝</Link>*/}
+          <Link href="/about">About</Link>
           <Link href="/blogs">Blogs 🖥</Link>
-          <Link href="/playlist">Playlist 🎵</Link>
-          <Link href="/rss-feed">RSS feed</Link>
-          <Link href="/bookmarks">Bookmarks</Link>
+          {/*<Link href="/playlist">Playlist 🎵</Link>*/}
+          {/*<Link href="/rss-feed">RSS feed</Link>*/}
+          {/*<Link href="/bookmarks">Bookmarks</Link>*/}
         </div>
       </>
     </Head>

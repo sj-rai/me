@@ -18,3 +18,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+::-moz-selection { /* Code for Firefox */
+  /*color: black;*/
+  background: aliceblue;
+}
+
+::selection {
+  /*color: black;*/
+  background: rgba(1,0,255,0.5);
+}
